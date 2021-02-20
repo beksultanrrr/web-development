@@ -11,6 +11,7 @@ function addTask(){
 
         let div = document.createElement("div");
         div.className="task";
+
         // console.log(div);
         let label = document.createElement("label");
 	    label.className = "task-new";
@@ -43,9 +44,12 @@ function remove(){
 }
 
 function clearAll(){
-    let btn = document.getElementById('.clear-button');
-    btn.addEventListener('click', div.remove);
     deleteImage[0].addEventListener('click', remove);
+}
+
+function clearAllTasks(){
+    // let btn = document.getElementById('.clear-button');
+    tasks.remove();
 }
 
 clearAll();
