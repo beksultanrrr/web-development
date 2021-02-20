@@ -6,12 +6,12 @@ let task = document.querySelectorAll('.task');
 let deleteImage = document.querySelectorAll('.delete-img');
 
 function addTask(){
-    console.log("ok")
+    // console.log("ok")                    
     if(inputText.value != null){
 
         let div = document.createElement("div");
         div.className="task";
-
+        // console.log(div);
         let label = document.createElement("label");
 	    label.className = "task-new";
 
@@ -21,11 +21,12 @@ function addTask(){
 
         let span = document.createElement("span");
 	    span.innerHTML = inputText.value;
+        // console.log(span.innerHTML)
 
         let image = document.createElement("img");
         image.className = "delete-img";
         image.src = "https://icons-for-free.com/iconfiles/png/512/delete+remove+trash+trash+bin+trash+can+icon-1320073117929397588.png";
-        image.addEventListener('click', remove, false);
+        image.addEventListener('click', remove);
 
         tasks.appendChild(div);
         div.appendChild(label);
@@ -41,8 +42,10 @@ function remove(){
     this.parentNode.remove();
 }
 
-
-
-for(var i = 0; i < task.length; i++){
-    deleteImage[i].addEventListener('click', remove, false);
+function clearAll(){
+    let btn = document.getElementById('.clear-button');
+    btn.addEventListener('click', div.remove);
+    deleteImage[0].addEventListener('click', remove);
 }
+
+clearAll();

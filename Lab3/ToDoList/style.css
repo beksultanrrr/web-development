@@ -79,7 +79,7 @@ h1{
 	color: white;
 }
 
-div .task-checkbox:checked + span{
+.task-checkbox:checked + span{
     text-decoration: line-through;
 }
 
@@ -98,3 +98,12 @@ div .task-checkbox:checked + span{
 	float: right;
 }
 
+.clear-button{
+    height: 38px;
+	margin-left: 5px;
+	border: none;
+	border-radius: 7px;
+	width: 60px;
+	background-color: #ca36cf;
+	color: rgb(255, 255, 255);
+}
