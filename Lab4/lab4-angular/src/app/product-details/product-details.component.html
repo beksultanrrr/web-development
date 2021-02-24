@@ -1,0 +1,23 @@
+
+<div *ngIf="product">
+  <h2>Product Details</h2>
+  <h3>
+    <a href="{{product.url}}">
+      {{ product.name }}
+    </a>
+  </h3>
+  <div class="images">
+    <img src="{{product.image2}}" width="300px">
+    <img src="{{product.image}}" width="300px">
+    <img src="{{product.image3}}" width="300px">
+  </div>
+  <h4>{{ product.price | currency }}</h4>
+  <p>{{ product.description }}</p>
+
+  <button (click)="addToCart(product)">Buy</button>
+  <a href="https://telegram.me/share/url?url={{product.url}}">
+    <button>
+      Share
+    </button>
+  </a>
+</div>
