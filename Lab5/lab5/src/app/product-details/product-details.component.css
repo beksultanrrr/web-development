@@ -1,0 +1,18 @@
+div {
+  text-align: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0 10px;
+  background-color: mediumseagreen;
+}
+
+.images {
+  display: flex;
+  flex-flow: row;
+}
+
+img {
+  margin: 0 10px;
+}
