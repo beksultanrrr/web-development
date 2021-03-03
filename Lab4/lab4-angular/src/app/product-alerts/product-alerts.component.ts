@@ -11,7 +11,6 @@ export class ProductAlertsComponent implements OnInit {
   @Output() notify = new EventEmitter();
   constructor() { }
 
-  // tslint:disable-next-line:typedef
   ngOnInit() {
   }
 

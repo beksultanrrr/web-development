@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 import { products } from '../products';
 
 @Component({
@@ -6,11 +6,21 @@ import { products } from '../products';
   templateUrl: './product-item.component.html',
   styleUrls: ['./product-item.component.css']
 })
+
 export class ProductItemComponent{
   products = products;
-  constructor() { }
+  // @ts-ignore
+  @Input categoryId: number;
+
   // tslint:disable-next-line:typedef
-  onNotify() {
-    window.alert('You will be notified when the product goes on sale');
+  remove(product: any) {
+    product.show = false;
   }
+
+  // tslint:disable-next-line:typedef
+  like(product: any) {
+    product.likes += 1;
+  }
+
+  constructor() { }
 }

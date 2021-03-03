@@ -1,0 +1,20 @@
+div {
+    width: 20%;
+    margin-top: 20px;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-color: blue;
+}
+
+a {
+    color: blue;
+    font-family: monospace;
+    font-size: 30px;
+}

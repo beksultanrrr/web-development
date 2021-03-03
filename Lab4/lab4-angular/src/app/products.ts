@@ -1,5 +1,4 @@
 export const products = [
-
   {
     id: 1,
     name: 'Laptop Stand Adjustable Laptop Computer Stand Multi-Angle Stand Phone Stand Portable Foldable Laptop Riser Notebook Holder',
@@ -9,7 +8,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/71l8JpvNk4L._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/61B7ZXoXORL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/71kcAgNEWKL._AC_SL1500_.jpg',
-    rating: '5.png'
+    rating: '5.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 2,
@@ -20,7 +22,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/81QpkIctqPL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/71xb7GDuAGL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/51tuEFDaPhL._AC_SL1500_.jpg',
-    rating: '5.png'
+    rating: '5.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 3,
@@ -31,7 +36,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/615Nba6dy4L._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/81p7i7MMcaL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/51pSVnUSGoL._AC_SL1500_.jpg',
-    rating: '4.png'
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 4,
@@ -42,7 +50,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/81gGdKBFlDL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/51PvYRksGYL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/81-F8p22JeL._AC_SL1500_.jpg',
-    rating: '4.png'
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 5,
@@ -53,7 +64,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/71ppucPX3wL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/71OE0Ic7ScL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/81Wjw%2B0Gu4L._AC_SL1500_.jpg',
-    rating: '5.png'
+    rating: '5.png',
+    likes: 0,
+    show: true,
+    categoryId: 1
   },
   {
     id: 6,
@@ -64,7 +78,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/619OCoAAAmL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/71OCVeJPsKL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/81EKaMfseKL._AC_SL1500_.jpg',
-    rating: '5.png'
+    rating: '5.png',
+    likes: 0,
+    show: true,
+    categoryId: 2
   },
   {
     id: 7,
@@ -75,7 +92,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/61RWbWU5xaL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/71OX1L%2BrvbL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/71hcd1bEjLL._AC_SL1500_.jpg',
-    rating: '3.png'
+    rating: '3.png',
+    likes: 0,
+    show: true,
+    categoryId: 2
   },
   {
     id: 8,
@@ -97,7 +117,10 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/81SGb5l%2BlZL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/91zyHoys2jL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/71oxyKvOTbL._AC_SL1500_.jpg',
-    rating: '4.png'
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 3
   },
   {
     id: 10,
@@ -108,6 +131,9 @@ export const products = [
     image: 'https://images-na.ssl-images-amazon.com/images/I/81zIq7Ez3KL._AC_SL1500_.jpg',
     image2: 'https://images-na.ssl-images-amazon.com/images/I/81OO5cNDOLL._AC_SL1500_.jpg',
     image3: 'https://images-na.ssl-images-amazon.com/images/I/71CxTpNkATL._AC_SL1500_.jpg',
-    rating: '4.png'
+    rating: '4.png',
+    likes: 0,
+    show: true,
+    categoryId: 4
   },
 ];
