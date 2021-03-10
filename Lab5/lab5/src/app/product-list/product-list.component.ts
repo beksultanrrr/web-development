@@ -15,13 +15,11 @@ export class ProductListComponent implements OnInit{
   public categoryId: number;
 
   constructor(private route: ActivatedRoute) { }
-
-  // tslint:disable-next-line:typedef
+  
   ngOnInit() {
-    // First get the product id from the current route.
     const routeParams = this.route.snapshot.paramMap;
     this.categoryId = Number(routeParams.get('categoryId'));
-    console.log(this.categoryId);
+    // console.log(this.categoryId);
   }
 }
 
