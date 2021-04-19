@@ -48,4 +48,3 @@ class Vacancy(models.Model):
                 'name': self.company.name
             },
         }
-
